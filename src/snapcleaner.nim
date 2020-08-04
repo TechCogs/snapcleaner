@@ -1,5 +1,9 @@
-# This is just an example to get you started. A typical binary package
-# uses this file as the main entry point of the application.
+# SnapCleaner
+# Copyright ©2020 TechCogs
+# Licensed under the GPLv3
+#
+# A Linux command line utility to clean old Snap package versions from a system
 
-when isMainModule:
-  echo("Hello, World!")
+let VERSION = "0.1"
+
+echo "SnapCleaner v", VERSION
